@@ -47,7 +47,7 @@ class mainApp(Tk):
     def selected(self):
         resultado = 0
         toUnidad = self.tipoUnidad.get()
-        print(toUnidad)
+        #print(toUnidad)
         grados = float(self.temperatura.get())
         
         if toUnidad == 'F':
